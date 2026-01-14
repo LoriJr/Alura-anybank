@@ -1,5 +1,15 @@
 # Anybank
 
+This project was undertaken to learn about the Angular framework.
+
+## branches
+
+1. modulo-1-criacao-do-projeto
+- criação do projeto
+- estilizações iniciais
+- banner inicial
+   
+
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
 
 ## Development server
