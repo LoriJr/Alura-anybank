@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-conta',
-  imports: [CurrencyPipe],
+  imports: [CurrencyPipe ],
   templateUrl: './conta.html',
   styleUrl: './conta.css',
 })

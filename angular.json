@@ -90,7 +90,11 @@
           },
           "defaultConfiguration": "development"
         }
+      },
+      "i18n": {
+        "sourceLocale": "pt"
       }
-    }
+
   }
+}
 }
