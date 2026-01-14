@@ -5,9 +5,13 @@ This project was undertaken to learn about the Angular framework.
 ## branches
 
 1. modulo-1-criacao-do-projeto
-- criação do projeto
-- estilizações iniciais
-- banner inicial
+  - criação do projeto
+  - estilizações iniciais
+  - banner inicial
+2. modulo-2-dados-com-pipes
+   - componentização 
+   - uso de pipes para formatação e transformação de dados, CurrencyPipe e TitleCasePipe
+   - configurando internacionalização (i18n), formato de data e moeda
    
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
