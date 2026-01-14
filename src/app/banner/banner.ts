@@ -1,14 +1,13 @@
 import { DatePipe } from '@angular/common';
 import { Component } from '@angular/core';
+import { BoasVindas } from "./boas-vindas/boas-vindas";
 
 @Component({
   selector: 'app-banner',
-  imports: [DatePipe],
+  imports: [BoasVindas],
   templateUrl: './banner.html',
   styleUrl: './banner.css',
 })
 export class Banner {
-
-  dataAtual = new Date();
 
 }
