@@ -9,5 +9,9 @@ import { FormNovaTransacao } from "./form-nova-transacao/form-nova-transacao";
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('anybank');
+
+  processarTransacao(){
+    console.log("transação criada!")
+  }
+
 }
