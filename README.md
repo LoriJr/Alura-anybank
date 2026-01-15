@@ -5,9 +5,9 @@ This project was undertaken to learn about the Angular framework.
 ## branches
 
 1. modulo-1-criacao-do-projeto
-  - criação do projeto
-  - estilizações iniciais
-  - banner inicial
+   - criação do projeto
+   - estilizações iniciais
+   - banner inicial
 2. modulo-2-dados-com-pipes
    - componentização 
    - uso de pipes para formatação e transformação de dados, CurrencyPipe e TitleCasePipe
