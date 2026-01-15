@@ -10,5 +10,3 @@ export class Transacao {
     DEPOSITO = 'deposito',
     SAQUE = 'saque'
   }
-
-

@@ -1,6 +1,7 @@
 import { Component, signal } from '@angular/core';
 import { Banner } from "./banner/banner";
 import { FormNovaTransacao } from "./form-nova-transacao/form-nova-transacao";
+import { Transacao } from './modelos/transacao';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +10,8 @@ import { FormNovaTransacao } from "./form-nova-transacao/form-nova-transacao";
   styleUrl: './app.css'
 })
 export class App {
-
-  processarTransacao(){
-    console.log("transação criada!")
+  processarTransacao(transacao: Transacao){
+    console.log("transacão realizada!")
+    console.log(transacao)
   }
-
 }
