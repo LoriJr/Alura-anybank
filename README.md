@@ -12,6 +12,11 @@ This project was undertaken to learn about the Angular framework.
    - componentização 
    - uso de pipes para formatação e transformação de dados, CurrencyPipe e TitleCasePipe
    - configurando internacionalização (i18n), formato de data e moeda
+3. modulo-3-formulario-de-transacoes
+   - utilização de formsModule
+   - vínculo bidirecional com o ngModel
+   - formulário em submissão com ngSubmit
+   - Explorar ngNativeValidate para reativar validações nativas do HTML
    
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
