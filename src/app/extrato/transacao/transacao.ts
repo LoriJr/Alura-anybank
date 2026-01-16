@@ -10,7 +10,4 @@ import { TransacaoModel } from '../../modelos/transacao';
 })
 export class Transacao {
   transacao = input.required<TransacaoModel>();
-
-  dataTransacao = new Date();
-
 }
