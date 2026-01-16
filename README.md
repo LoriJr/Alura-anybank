@@ -23,6 +23,11 @@ This project was undertaken to learn about the Angular framework.
    - gerando classes com ng g class
    - encapsulando dados e definindo modelos
    - usando enum e construtures TypeScript para inicializar propriedades
+5. modulo-5-processamento-de-dados
+   - usando signals para gerencias dados mutáveis e reativos
+   - usando computed para propriedades derivadas que reagem a outros signals
+   - usando reduce para cálculos entre tipos de transação
+   - usando KeyValuePipe na diretiva @for para enum dinâmico
    
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
