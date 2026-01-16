@@ -28,6 +28,10 @@ This project was undertaken to learn about the Angular framework.
    - usando computed para propriedades derivadas que reagem a outros signals
    - usando reduce para cálculos entre tipos de transação
    - usando KeyValuePipe na diretiva @for para enum dinâmico
+6. modulo-6-extrato-de-transacoes
+   - input para dados dinâmicos para componentes filhos
+   - usando lib nanoid para gerar IDs únicos
+   - encapsulando funcionalidades em classes para facilitar manutenção e boas práticas   
    
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
