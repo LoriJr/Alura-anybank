@@ -1,4 +1,4 @@
 <div class="transacao">
-  <span class="valor">{{ 20 | currency:'BRL' }}</span>
-  <span class="data">{{ "16/01/2025" }}</span>
+  <span class="valor">{{ transacao().valor| currency:'BRL' }}</span>
+  <span class="data">{{ dataTransacao | date: 'dd/MM/yyyy, h:mm a' }}</span>
 </div>
