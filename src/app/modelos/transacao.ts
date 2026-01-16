@@ -1,4 +1,4 @@
-export class Transacao {
+export class TransacaoModel {
   constructor(
     public readonly tipo: TipoTransacao,
     public readonly  valor: number
