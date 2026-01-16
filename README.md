@@ -17,6 +17,12 @@ This project was undertaken to learn about the Angular framework.
    - vínculo bidirecional com o ngModel
    - formulário em submissão com ngSubmit
    - Explorar ngNativeValidate para reativar validações nativas do HTML
+4. modulo-4-comunicacao-de-componentes
+   - comunicação entre componente pai e filho
+   - capturando eventos com $event
+   - gerando classes com ng g class
+   - encapsulando dados e definindo modelos
+   - usando enum e construtures TypeScript para inicializar propriedades
    
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.0.1.
