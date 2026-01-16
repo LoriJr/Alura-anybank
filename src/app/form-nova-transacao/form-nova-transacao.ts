@@ -9,7 +9,7 @@ import { TipoTransacao, Transacao } from '../modelos/transacao';
   styleUrl: './form-nova-transacao.css',
 })
 export class FormNovaTransacao {
-  tipoTransacao = ""
+  tipoTransacao = "";
   valorTransacao = "";
 
   transacaoCriada = output<Transacao>();
@@ -21,7 +21,7 @@ export class FormNovaTransacao {
     );
 
     this.transacaoCriada.emit(transacao);
-
+ 
     this.tipoTransacao = "";
     this.valorTransacao ="";
   }

@@ -1,7 +1,7 @@
 export class Transacao {
   constructor(
-    tipo: TipoTransacao,
-    valor: number
+    public readonly tipo: TipoTransacao,
+    public readonly  valor: Number
   )
   {}
 }
