@@ -1,7 +1,7 @@
 import { Component, computed, signal } from '@angular/core';
 import { Banner } from "./banner/banner";
 import { FormNovaTransacao } from "./form-nova-transacao/form-nova-transacao";
-import { Transacao } from './modelos/transacao';
+import { TipoTransacao, Transacao } from './modelos/transacao';
 
 @Component({
   selector: 'app-root',
@@ -15,7 +15,12 @@ export class App {
 
   saldo = computed(() => {
     return this.listaTransacoes().reduce((acc, transacaoAtual) => {
+
+      if(transacaoAtual.tipo === TipoTransacao.DEPOSITO){
       return acc + transacaoAtual.valor;
+      }else{
+        return acc - transacaoAtual.valor;
+      }
     }, 0);
   });
 
