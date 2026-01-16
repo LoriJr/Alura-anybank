@@ -10,8 +10,12 @@ import { Transacao } from './modelos/transacao';
   styleUrl: './app.css'
 })
 export class App {
+
+  listaTransacoes = signal<Transacao[]>([]);
+
   processarTransacao(transacao: Transacao){
-    console.log("transacão realizada!")
-    console.log(transacao)
+    this.listaTransacoes.update(
+      (listaAtual) => [transacao, ...listaAtual ])
+      console.log(this.listaTransacoes());
   }
 }
