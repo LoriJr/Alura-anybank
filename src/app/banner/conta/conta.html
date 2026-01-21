@@ -1,6 +1,24 @@
 <section class="conta">
-  <h2 class="titulo">Saldo</h2>
+
+  <h2 class="titulo">Saldo
+    <button
+      mat-icon-button
+      (click)="saldoVisibilidade()"
+
+    >
+    <mat-icon class="icone-animado">
+        {{ saldoVisivel ? 'visibility' : 'visibility_off' }}
+      </mat-icon>
+    </button>
+  </h2>
   <div class="divisoria"></div>
   <span class="tipo-conta">Conta Corrente</span>
-  <span class="saldo"> {{ saldo() | currency: "BRL"}} </span>
+
+  <span class="saldo"> @if(saldoVisivel){
+      {{ saldo() | currency: "BRL"}}
+
+    }@else{
+      R$ -----
+    }
+   </span>
 </section>
