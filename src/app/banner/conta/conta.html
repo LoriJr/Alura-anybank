@@ -14,11 +14,11 @@
   <div class="divisoria"></div>
   <span class="tipo-conta">Conta Corrente</span>
 
-  <span class="saldo"> @if(saldoVisivel){
+  <span class="saldo" [class.blur]="!saldoVisivel">
+     @if(saldoVisivel){
       {{ saldo() | currency: "BRL"}}
-
     }@else{
-      R$ -----
+      R$ ••••••
     }
-   </span>
+   </span>""
 </section>
